@@ -11,5 +11,7 @@ services:
     command: /gateway.sh
     volumes:
      - ./topologies:/knox/conf/topologies
+     - ./logs:/knox/logs
+     - ./applications:/knox/data/applications
     depends_on:
     - ldap

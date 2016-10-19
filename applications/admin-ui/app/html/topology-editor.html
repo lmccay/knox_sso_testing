@@ -1,0 +1,90 @@
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+      http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<div role="tabpanel" class="tab-pane fade" id="topology-editor">
+  <br>
+  <div class="row">
+    <p>The topology editor will appear after selecting a topology</p>
+    <!-- TOPOLOGY EDITOR HERE -->
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <p class="panel-title">
+          Topology Editor
+        </p>
+      </div>
+      <div class="panel-body">
+        <div class="container">
+          <form class="form-horizontal col-sm-4">
+            <label>Topology</label>
+            <select class="form-control">
+              <option value="">No Topologies Found</option>
+            </select>
+          </form>
+        </div>
+        <h3>Topology Name: <code id="topology-editor-title">sandbox</code></h3>
+
+        <div class="panel-group" id="topology-accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="providers-heading">
+              <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#topology-accordion" href="#topology-providers" aria-expanded="true" aria-controls="topology-providers">
+                        Providers<span> </span><span class="badge">1</span>
+                      </a>
+                    </h4>
+            </div>
+            <div id="topology-providers" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="providers-heading">
+              <div class="panel-body">
+                <div class="col-sm-6">
+                  <div class="list-group">
+                    <a class="list-group-item btn btn-default" href="#">Provider</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="services-heading">
+              <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#topology-accordion" href="#topology-services" aria-expanded="false" aria-controls="topology-services">
+          Services
+        </a>
+      </h4>
+            </div>
+            <div id="topology-services" class="panel-collapse collapse" role="tabpanel" aria-labelledby="services-heading">
+              <div class="panel-body">
+                Services go here
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="applications-heading">
+              <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#topology-accordion" href="#topology-applications" aria-expanded="false" aria-controls="topology-applications">
+          Applications
+        </a>
+      </h4>
+            </div>
+            <div id="topology-applications" class="panel-collapse collapse" role="tabpanel" aria-labelledby="applications-heading">
+              <div class="panel-body">
+                Applications go here
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

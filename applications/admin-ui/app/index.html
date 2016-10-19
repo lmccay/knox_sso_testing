@@ -1,0 +1,172 @@
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+      http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Knox Manager</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+  <header class="col-xs-12 bg-gray">
+    <div class="container ">
+      <div class="row">
+        <h1>Knox Manager</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row col-xs-12">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#topologies" aria-controls="topologies" role="tab" data-toggle="tab">Topologies</a></li>
+        <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="home">
+        <br>
+        <h3>Apache Knox Manager <small>0.0.1</small></h3>
+        <hr>
+        <p class="alert alert-warning"><span class="glyphicon-fire glyphicon"></span> Caution! <span class="glyphicon-fire glyphicon"></span> This software is still in a beta phase and may be buggy. Procede with caution. Your Knox instance might go up in flames!</p>
+
+        <p>Here's a list of features that Knox Manager currently has to offer</p>
+        <ul>
+          <li>Topology Viewer</li>
+          <li>View Instance Version</li>
+        </ul>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="topologies">
+        <br>
+        <div class="row">
+
+          <div id="topology-modal-viewer-container">
+
+            <!--           TOPOLOGY MODAL INFO GOES HERE-->
+            <div class="modal fade" id="topology-view-modal" tabindex="-1" role="dialog" aria-labelledby="topology-modal-label">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="topology-modal-label">Topology Information</h4>
+                  </div>
+                  <div class="modal-body">
+
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#topology-data-pretty" aria-controls="Topology Data" role="tab" data-toggle="tab">Formatted</a></li>
+                      <li role="presentation"><a href="#topology-data-json" aria-controls="home" role="tab" data-toggle="tab">JSON</a></li>
+                      <li role="presentation"><a href="#topology-data-xml" aria-controls="JSON Topology" role="tab" data-toggle="tab">XML</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div role="tabpanel" class="tab-pane active" id="topology-data-pretty">
+                        <br>
+                        <div id="topology-data-pretty-container">
+                          <h2>Sandbox</h2>
+                          <label>Timestamp: </label>102349871230
+                          
+                          <h3>Providers</h3>
+                          <h3>Applications</h3>
+                          <h3>Services</h3>
+                          
+                        </div>
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="topology-data-json">
+                        <br>
+                        <pre>Unable to get JSON topology</pre>
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="topology-data-xml">
+                        <br>
+                        <pre>Unable to get XML topology</pre>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-block btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--            MODAL INFO GOES HERE-->
+
+          </div>
+        </div>
+        <!--   TOPOLOGY CARDS WILL GO HERE         -->
+        <div class="row" id="topology-card-container">
+        </div>
+        <button data-toggle="modal" class="btn btn-primary" data-target="#topology-view-modal">Test</button>
+        <!--   TOPOLOGY CARDS WILL GO HERE         -->
+
+
+
+      </div>
+
+      <!--KNOX VERSION INFORMATION -->
+      <div role="tabpanel" class="tab-pane fade" id="about">
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="well">
+              <p>Knox Version</p>
+              <code id="knox-version">Knox Version and Hash Here</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--KNOX VERSION INFORMATION-->
+    </div>
+  </div>
+
+  <hr>
+  <footer class="footer">
+    <div class="container">
+      <div class="row col-xs-12">
+        Apache Knox Manager 0.0.1
+        <br> Licensed Under the Apache License v2.0
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript" src="js/http.js"></script>
+  <script type="text/javascript" src="js/admin-api.js"></script>
+  <script type="text/javascript" src="js/elements.js"></script>
+  <script type="text/javascript" src="js/page-update.js"></script>
+  <script>
+    window.onload = function () {
+      updateHomePage();
+    }
+
+    //    setInterval(updateHomePage, 5000);
+  </script>
+</body>
+
+</html>

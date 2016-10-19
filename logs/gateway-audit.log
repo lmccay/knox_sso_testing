@@ -1,0 +1,304 @@
+16/10/19 01:42:58 |||audit|||||deploy|topology|knoxsso|unavailable|
+16/10/19 01:43:00 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 01:43:59 ||7fa33815-e963-4409-9ae8-f514577e8fe7|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 01:43:59 ||7fa33815-e963-4409-9ae8-f514577e8fe7|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 302
+16/10/19 01:43:59 ||8d22c320-2ed1-43d3-a8f1-b6267345322b|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 01:43:59 ||8d22c320-2ed1-43d3-a8f1-b6267345322b|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 401
+16/10/19 01:43:59 ||39e016b0-c4f6-47f9-9f5a-21714620d863|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 01:43:59 ||39e016b0-c4f6-47f9-9f5a-21714620d863|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 200
+16/10/19 01:43:59 ||e849c293-f58e-40c7-b46d-d6437414d74b|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|unavailable|Request method: GET
+16/10/19 01:43:59 ||e849c293-f58e-40c7-b46d-d6437414d74b|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|success|Response status: 200
+16/10/19 01:43:59 ||bfced4c8-46e9-4868-acbb-2d2c15e01464|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|unavailable|Request method: GET
+16/10/19 01:43:59 ||0db919ca-b15e-4212-88d8-0555329d56aa|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|unavailable|Request method: GET
+16/10/19 01:43:59 ||ee81f992-1163-4e01-b001-42378b0131c3|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|unavailable|Request method: GET
+16/10/19 01:43:59 ||ee81f992-1163-4e01-b001-42378b0131c3|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|success|Response status: 200
+16/10/19 01:43:59 ||bfced4c8-46e9-4868-acbb-2d2c15e01464|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|success|Response status: 200
+16/10/19 01:43:59 ||146ca958-ab0c-45e2-a465-6d97a769054a|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|unavailable|Request method: GET
+16/10/19 01:43:59 ||146ca958-ab0c-45e2-a465-6d97a769054a|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|success|Response status: 200
+16/10/19 01:43:59 ||0db919ca-b15e-4212-88d8-0555329d56aa|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|success|Response status: 200
+16/10/19 01:43:59 ||9d593b6f-ebd3-457e-8a14-505d6d5a0e84|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|unavailable|Request method: GET
+16/10/19 01:43:59 ||9d593b6f-ebd3-457e-8a14-505d6d5a0e84|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|success|Response status: 200
+16/10/19 01:44:27 ||79866f6b-0da4-459a-b834-d00584b29053|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: POST
+16/10/19 01:44:27 ||79866f6b-0da4-459a-b834-d00584b29053|audit|KNOXSSO||||authentication|principal|guest|failure|LDAP naming error while attempting to authenticate user.
+16/10/19 01:44:27 ||79866f6b-0da4-459a-b834-d00584b29053|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 401
+16/10/19 02:04:19 |||audit|||||deploy|topology|knoxsso|unavailable|
+16/10/19 02:04:30 ||19bfc8d2-b01b-48a8-b85c-b56b237c7803|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: POST
+16/10/19 02:04:30 ||19bfc8d2-b01b-48a8-b85c-b56b237c7803|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|
+16/10/19 02:04:30 ||19bfc8d2-b01b-48a8-b85c-b56b237c7803|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Groups: []
+16/10/19 02:04:31 ||19bfc8d2-b01b-48a8-b85c-b56b237c7803|audit|KNOXSSO|guest|||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 303
+16/10/19 02:04:31 ||945b2f13-8350-4fd2-87a0-c0ddeb32b76d|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:04:31 ||945b2f13-8350-4fd2-87a0-c0ddeb32b76d|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|unavailable|Request method: GET
+16/10/19 02:04:31 ||945b2f13-8350-4fd2-87a0-c0ddeb32b76d|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|failure|
+16/10/19 02:04:31 ||945b2f13-8350-4fd2-87a0-c0ddeb32b76d|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|failure|
+16/10/19 02:12:10 ||3857921c-2eb6-449b-80f5-606421ce2395|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|unavailable|Request method: GET
+16/10/19 02:12:10 ||d5217cb3-c7f4-43fb-ada4-d15dc24d79a9|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|unavailable|Request method: GET
+16/10/19 02:12:10 ||d5217cb3-c7f4-43fb-ada4-d15dc24d79a9|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|success|Response status: 200
+16/10/19 02:12:10 ||3857921c-2eb6-449b-80f5-606421ce2395|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|success|Response status: 200
+16/10/19 02:13:06 ||ae4d5250-a4e5-475f-bce7-7cecf8e1a61e|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:13:06 ||ae4d5250-a4e5-475f-bce7-7cecf8e1a61e|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|unavailable|Request method: GET
+16/10/19 02:13:06 ||ae4d5250-a4e5-475f-bce7-7cecf8e1a61e|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|failure|
+16/10/19 02:13:06 ||ae4d5250-a4e5-475f-bce7-7cecf8e1a61e|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|failure|
+16/10/19 02:14:00 ||e99d76d7-6815-4740-8b3d-ffaa9e1f2167|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:14:00 ||e99d76d7-6815-4740-8b3d-ffaa9e1f2167|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 302
+16/10/19 02:14:00 ||03ea8584-97f7-4c63-b2d1-7251555a9214|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:14:00 ||03ea8584-97f7-4c63-b2d1-7251555a9214|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 401
+16/10/19 02:14:00 ||94dc2ce8-e420-482c-9567-9187a8120374|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:14:00 ||94dc2ce8-e420-482c-9567-9187a8120374|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 200
+16/10/19 02:14:00 ||8bb61b9d-ece8-4656-a7fd-bfee50856ded|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|unavailable|Request method: GET
+16/10/19 02:14:00 ||8bb61b9d-ece8-4656-a7fd-bfee50856ded|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|success|Response status: 200
+16/10/19 02:14:00 ||d12bf116-4c4e-4604-a945-02ff8077bf38|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|unavailable|Request method: GET
+16/10/19 02:14:00 ||126a2885-ad2d-477e-93e4-f0e00983966e|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|unavailable|Request method: GET
+16/10/19 02:14:00 ||126a2885-ad2d-477e-93e4-f0e00983966e|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|success|Response status: 200
+16/10/19 02:14:00 ||cc083f93-661a-4651-a10c-ace7db22d176|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|unavailable|Request method: GET
+16/10/19 02:14:00 ||cc083f93-661a-4651-a10c-ace7db22d176|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|success|Response status: 200
+16/10/19 02:14:00 ||61547cc0-47f0-424a-876d-e2c2b83dee1c|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|unavailable|Request method: GET
+16/10/19 02:14:00 ||61547cc0-47f0-424a-876d-e2c2b83dee1c|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|success|Response status: 200
+16/10/19 02:14:00 ||61547cc0-47f0-424a-876d-e2c2b83dee1c|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|success|Response status: 200
+16/10/19 02:14:00 ||ce6fe705-d5b4-4fed-bb49-9069be213834|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|unavailable|Request method: GET
+16/10/19 02:14:00 ||ce6fe705-d5b4-4fed-bb49-9069be213834|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|success|Response status: 200
+16/10/19 02:14:06 ||0e614df7-4690-4d20-9263-2ce1ff9b7397|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: POST
+16/10/19 02:14:06 ||0e614df7-4690-4d20-9263-2ce1ff9b7397|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|
+16/10/19 02:14:06 ||0e614df7-4690-4d20-9263-2ce1ff9b7397|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Groups: []
+16/10/19 02:14:06 ||0e614df7-4690-4d20-9263-2ce1ff9b7397|audit|KNOXSSO|guest|||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 303
+16/10/19 02:14:06 ||f909f99c-2d70-4d63-a4f8-7af15295286c|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:14:06 ||f909f99c-2d70-4d63-a4f8-7af15295286c|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|unavailable|Request method: GET
+16/10/19 02:14:06 ||f909f99c-2d70-4d63-a4f8-7af15295286c|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|failure|
+16/10/19 02:14:07 ||f909f99c-2d70-4d63-a4f8-7af15295286c|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|failure|
+16/10/19 02:25:39 ||b06317df-bd08-4a36-8752-bebec9c608c7|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:25:39 ||b06317df-bd08-4a36-8752-bebec9c608c7|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 302
+16/10/19 02:25:47 ||ac69e72c-c955-42b5-86cd-9b7984c0e1f6|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:25:47 ||ac69e72c-c955-42b5-86cd-9b7984c0e1f6|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|
+16/10/19 02:25:47 ||ac69e72c-c955-42b5-86cd-9b7984c0e1f6|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Groups: []
+16/10/19 02:25:47 ||ac69e72c-c955-42b5-86cd-9b7984c0e1f6|audit|KNOXSSO|guest|||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|success|Response status: 303
+16/10/19 02:26:41 ||3d453b36-1132-4237-9324-999d7e6868a4|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|unavailable|Request method: GET
+16/10/19 02:26:41 ||3d453b36-1132-4237-9324-999d7e6868a4|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|unavailable|Request method: GET
+16/10/19 02:26:41 ||3d453b36-1132-4237-9324-999d7e6868a4|audit|WEBHDFS||||dispatch|uri|http://localhost:50070/webhdfs/v1/tmp?op=LISTSTATUS&user.name=guest|failure|
+16/10/19 02:26:41 ||3d453b36-1132-4237-9324-999d7e6868a4|audit|WEBHDFS||||access|uri|/gateway/sandbox/webhdfs/v1/tmp?op=LISTSTATUS|failure|
+16/10/19 12:16:05 |||audit|||||deploy|topology|knoxsso|unavailable|
+16/10/19 12:16:07 |||audit|||||deploy|topology|knoxsso|failure|
+16/10/19 12:16:07 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 12:17:25 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 12:17:26 |||audit|||||deploy|topology|sandbox|failure|
+16/10/19 12:19:51 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 12:19:53 |||audit|||||deploy|topology|sandbox|failure|
+16/10/19 12:20:53 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 12:38:06 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 12:40:42 ||b826a709-7465-466d-a8fe-279e3cb232c8|audit|||||access|uri|/gateway/sandbox/knox-manager/index.html|unavailable|Request method: GET
+16/10/19 12:40:42 ||b826a709-7465-466d-a8fe-279e3cb232c8|audit|||||access|uri|/gateway/sandbox/knox-manager/index.html|success|Response status: 404
+16/10/19 12:40:51 ||d6e0f5e8-11d1-42ba-9eb6-02d7cbdac44d|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:42:47 |||audit|||||deploy|topology|knoxsso|unavailable|
+16/10/19 12:42:47 |||audit|||||deploy|topology|knoxsso|failure|
+16/10/19 12:43:53 ||951050c9-787b-4220-93be-a2437aed08d4|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:46:10 |||audit|||||deploy|topology|knoxsso|unavailable|
+16/10/19 12:46:12 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 12:46:38 ||f1563286-2798-441b-805c-7178d4337fbf|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:46:38 ||58c7ef04-0682-4db5-9044-88329db43361|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:46:38 ||58c7ef04-0682-4db5-9044-88329db43361|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Response status: 401
+16/10/19 12:46:38 ||cb717b8f-d8cb-4f75-ad53-a4f8b8c2a635|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:46:38 ||cb717b8f-d8cb-4f75-ad53-a4f8b8c2a635|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 12:46:38 ||637c8f65-22b3-449b-a812-4ae9bc793432|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|unavailable|Request method: GET
+16/10/19 12:46:38 ||637c8f65-22b3-449b-a812-4ae9bc793432|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|success|Response status: 200
+16/10/19 12:46:38 ||c0fdb9cd-18e1-43ba-b22f-bb8de334f3db|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|unavailable|Request method: GET
+16/10/19 12:46:38 ||c0fdb9cd-18e1-43ba-b22f-bb8de334f3db|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|success|Response status: 200
+16/10/19 12:46:38 ||980fa585-d24f-4d1a-87a9-35f3716d900e|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|unavailable|Request method: GET
+16/10/19 12:46:38 ||524e9986-a5c7-420c-ab2d-fabdb67c378b|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|unavailable|Request method: GET
+16/10/19 12:46:38 ||524e9986-a5c7-420c-ab2d-fabdb67c378b|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|success|Response status: 200
+16/10/19 12:46:38 ||d5c7609b-58e0-4a37-bd1b-d6211e9de5a2|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|unavailable|Request method: GET
+16/10/19 12:46:38 ||d5c7609b-58e0-4a37-bd1b-d6211e9de5a2|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|success|Response status: 200
+16/10/19 12:46:39 ||980fa585-d24f-4d1a-87a9-35f3716d900e|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|success|Response status: 200
+16/10/19 12:46:39 ||1006b1cb-280b-47d0-9cf3-d7f7940c99d7|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|unavailable|Request method: GET
+16/10/19 12:46:39 ||1006b1cb-280b-47d0-9cf3-d7f7940c99d7|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|success|Response status: 200
+16/10/19 12:46:46 ||b46de454-2ca2-49ff-80fa-1d4f44b458d7|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|unavailable|Request method: POST
+16/10/19 12:46:46 ||b46de454-2ca2-49ff-80fa-1d4f44b458d7|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|
+16/10/19 12:46:46 ||b46de454-2ca2-49ff-80fa-1d4f44b458d7|audit|KNOXSSO|guest|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Groups: []
+16/10/19 12:46:47 ||b46de454-2ca2-49ff-80fa-1d4f44b458d7|audit|KNOXSSO|guest|||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Response status: 303
+16/10/19 12:46:47 ||27845678-ea4c-4ae9-a608-c9adafb9487e|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:46:47 ||27845678-ea4c-4ae9-a608-c9adafb9487e|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 12:46:47 ||2226f562-09ab-4f22-9dc6-fd72e00e57ae|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 12:46:47 ||2226f562-09ab-4f22-9dc6-fd72e00e57ae|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 12:46:47 ||0a10bb74-93c0-4711-adbe-6b17ae0d7061|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|unavailable|Request method: GET
+16/10/19 12:46:47 ||0a10bb74-93c0-4711-adbe-6b17ae0d7061|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|success|Response status: 200
+16/10/19 12:46:47 ||fefbc7a4-1870-42cd-afaf-231a5a0ce333|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|unavailable|Request method: GET
+16/10/19 12:46:47 ||fefbc7a4-1870-42cd-afaf-231a5a0ce333|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|success|Response status: 200
+16/10/19 12:46:47 ||21bdb4b5-a368-4254-9e01-1e9247f6e906|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/config.js|unavailable|Request method: GET
+16/10/19 12:46:47 ||b0928132-b8ea-4b05-a397-0256c286a700|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/http.js|unavailable|Request method: GET
+16/10/19 12:46:47 ||21bdb4b5-a368-4254-9e01-1e9247f6e906|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/config.js|success|Response status: 200
+16/10/19 12:46:47 ||a74be704-1c09-4924-b45e-e677939fa5b2|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/admin-api.js|unavailable|Request method: GET
+16/10/19 12:46:47 ||a5d816a9-10e0-4d5e-9c54-1a7d9c06e379|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/elements.js|unavailable|Request method: GET
+16/10/19 12:46:47 ||6bc2ecef-0a11-4bfe-b880-f6c7d6cac672|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/page-update.js|unavailable|Request method: GET
+16/10/19 12:46:47 ||a74be704-1c09-4924-b45e-e677939fa5b2|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/admin-api.js|success|Response status: 200
+16/10/19 12:46:47 ||b0928132-b8ea-4b05-a397-0256c286a700|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/http.js|success|Response status: 200
+16/10/19 12:46:47 ||6bc2ecef-0a11-4bfe-b880-f6c7d6cac672|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/page-update.js|success|Response status: 200
+16/10/19 12:46:47 ||a5d816a9-10e0-4d5e-9c54-1a7d9c06e379|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/elements.js|success|Response status: 200
+16/10/19 13:31:56 |||audit|||||deploy|topology|admin|unavailable|
+16/10/19 13:32:01 |||audit|||||deploy|topology|admin|unavailable|
+16/10/19 13:33:03 ||e573c33b-8221-408c-b93b-a5c6bc2383fe|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:33:03 ||e573c33b-8221-408c-b93b-a5c6bc2383fe|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 13:33:03 ||1ca0a65b-443c-458e-9e1c-722f7ec35524|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|unavailable|Request method: GET
+16/10/19 13:33:03 ||1ca0a65b-443c-458e-9e1c-722f7ec35524|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|success|Response status: 200
+16/10/19 13:33:03 ||7e246ad1-d8b5-4f8d-a009-dc2414cb1e68|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|unavailable|Request method: GET
+16/10/19 13:33:03 ||7e246ad1-d8b5-4f8d-a009-dc2414cb1e68|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|success|Response status: 200
+16/10/19 13:33:03 ||e3c02a02-14ce-4ae0-8bf5-12e3125b5e9f|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/admin-api.js|unavailable|Request method: GET
+16/10/19 13:33:03 ||e3c02a02-14ce-4ae0-8bf5-12e3125b5e9f|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/admin-api.js|success|Response status: 200
+16/10/19 13:33:03 ||4e1fd744-f1ea-4283-bdee-d0368b57f39a|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/elements.js|unavailable|Request method: GET
+16/10/19 13:33:03 ||4e1fd744-f1ea-4283-bdee-d0368b57f39a|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/elements.js|success|Response status: 200
+16/10/19 13:33:03 ||64a5a64b-f153-47d5-9bd3-37657039bd6c|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/config.js|unavailable|Request method: GET
+16/10/19 13:33:03 ||21c2c58a-53a3-42e4-80ae-70b847393633|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/http.js|unavailable|Request method: GET
+16/10/19 13:33:03 ||21c2c58a-53a3-42e4-80ae-70b847393633|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/http.js|success|Response status: 200
+16/10/19 13:33:03 ||64a5a64b-f153-47d5-9bd3-37657039bd6c|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/config.js|success|Response status: 200
+16/10/19 13:33:03 ||408fa897-ca57-4d55-a110-b6a4d632741f|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/page-update.js|unavailable|Request method: GET
+16/10/19 13:33:03 ||408fa897-ca57-4d55-a110-b6a4d632741f|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/page-update.js|success|Response status: 200
+16/10/19 13:33:04 ||60acc584-3e7b-416f-a35a-416f322b7e68|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|unavailable|Request method: GET
+16/10/19 13:33:04 ||59bfe936-2691-41d6-9c62-0bd69f3466f0|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|unavailable|Request method: GET
+16/10/19 13:33:04 ||59bfe936-2691-41d6-9c62-0bd69f3466f0|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/version|failure|
+16/10/19 13:33:04 ||60acc584-3e7b-416f-a35a-416f322b7e68|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies|failure|
+16/10/19 13:33:04 ||60acc584-3e7b-416f-a35a-416f322b7e68|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|success|Response status: 403
+16/10/19 13:33:04 ||59bfe936-2691-41d6-9c62-0bd69f3466f0|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|success|Response status: 403
+16/10/19 13:33:09 ||b30cc5ff-9f75-4b3f-9424-fb0c6512232d|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:33:09 ||b30cc5ff-9f75-4b3f-9424-fb0c6512232d|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 13:33:09 ||21508179-f68f-439f-bd41-0d8dedf50d9a|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|unavailable|Request method: GET
+16/10/19 13:33:09 ||af8e619a-eaa1-4f44-928a-84e8a3330cde|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|unavailable|Request method: GET
+16/10/19 13:33:09 ||af8e619a-eaa1-4f44-928a-84e8a3330cde|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/version|failure|
+16/10/19 13:33:09 ||af8e619a-eaa1-4f44-928a-84e8a3330cde|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|success|Response status: 403
+16/10/19 13:33:09 ||af8e619a-eaa1-4f44-928a-84e8a3330cde|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies|failure|
+16/10/19 13:33:09 ||af8e619a-eaa1-4f44-928a-84e8a3330cde|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|success|Response status: 403
+16/10/19 13:33:39 ||dae6e503-49e9-44a5-b377-3062294baf31|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|unavailable|Request method: GET
+16/10/19 13:33:39 ||dae6e503-49e9-44a5-b377-3062294baf31|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|success|Response status: 200
+16/10/19 13:33:39 ||90f56fb8-54ef-4b37-a182-58019a1b9506|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|unavailable|Request method: GET
+16/10/19 13:33:39 ||90f56fb8-54ef-4b37-a182-58019a1b9506|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|success|Response status: 200
+16/10/19 13:33:59 ||f61abdee-844b-4318-999b-a064f9fffe1b|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:33:59 ||989bf880-eacf-402b-a78f-20d0e7645437|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:33:59 ||989bf880-eacf-402b-a78f-20d0e7645437|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Response status: 401
+16/10/19 13:33:59 ||744371fb-b11a-48fe-ac52-86c6e7084c8b|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:33:59 ||744371fb-b11a-48fe-ac52-86c6e7084c8b|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/login.html?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 13:33:59 ||47782334-0708-46e9-9601-473df768f5c6|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|unavailable|Request method: GET
+16/10/19 13:33:59 ||47782334-0708-46e9-9601-473df768f5c6|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/bootstrap.min.css|success|Response status: 200
+16/10/19 13:33:59 ||a38f17f7-d081-49a3-a2a0-4f393ca38b66|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|unavailable|Request method: GET
+16/10/19 13:33:59 ||a38f17f7-d081-49a3-a2a0-4f393ca38b66|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/styles/knox.css|success|Response status: 200
+16/10/19 13:33:59 ||4e36c118-2f69-4071-ab27-96f14201d05a|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|unavailable|Request method: GET
+16/10/19 13:33:59 ||239238d9-60f2-425d-b600-054607e7766d|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|unavailable|Request method: GET
+16/10/19 13:33:59 ||4e36c118-2f69-4071-ab27-96f14201d05a|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/libs/bower/jquery/js/jquery.js|success|Response status: 200
+16/10/19 13:33:59 ||239238d9-60f2-425d-b600-054607e7766d|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/js/knoxauth.js|success|Response status: 200
+16/10/19 13:33:59 ||182b3eb3-facc-4a7d-b9d3-4b48d84cb141|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|unavailable|Request method: GET
+16/10/19 13:33:59 ||182b3eb3-facc-4a7d-b9d3-4b48d84cb141|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/images/knox-logo.gif|success|Response status: 200
+16/10/19 13:33:59 ||a8ff7291-0587-4626-a97b-c8b9402b914f|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|unavailable|Request method: GET
+16/10/19 13:33:59 ||a8ff7291-0587-4626-a97b-c8b9402b914f|audit|knoxauth||||access|uri|/gateway/knoxsso/knoxauth/fonts/fontawesome/fontawesome-webfont.woff?v=3.2.1|success|Response status: 200
+16/10/19 13:34:05 ||68c67de5-a883-467d-9dcd-86f0348cfeb6|audit|KNOXSSO||||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|unavailable|Request method: POST
+16/10/19 13:34:05 ||68c67de5-a883-467d-9dcd-86f0348cfeb6|audit|KNOXSSO|admin|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|
+16/10/19 13:34:05 ||68c67de5-a883-467d-9dcd-86f0348cfeb6|audit|KNOXSSO|admin|||authentication|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Groups: []
+16/10/19 13:34:05 ||68c67de5-a883-467d-9dcd-86f0348cfeb6|audit|KNOXSSO|admin|||access|uri|/gateway/knoxsso/api/v1/websso?originalUrl=https://www.local.com:8443/gateway/sandbox/admin-ui/index.html|success|Response status: 303
+16/10/19 13:34:05 ||45aee978-f462-4b18-a6d0-9a906fc66322|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:34:05 ||45aee978-f462-4b18-a6d0-9a906fc66322|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 13:34:05 ||86da34e0-332f-4eb3-b137-68cc292cc6fd|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:34:05 ||86da34e0-332f-4eb3-b137-68cc292cc6fd|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/index.html|success|Response status: 200
+16/10/19 13:34:05 ||1981e364-0710-42bc-bd9f-e77ed46f2b95|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|unavailable|Request method: GET
+16/10/19 13:34:05 ||d292577d-eb13-40f3-968b-b7d2fbaf695b|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|unavailable|Request method: GET
+16/10/19 13:34:05 ||1981e364-0710-42bc-bd9f-e77ed46f2b95|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/normalize.css|success|Response status: 200
+16/10/19 13:34:05 ||d292577d-eb13-40f3-968b-b7d2fbaf695b|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/css/main.css|success|Response status: 200
+16/10/19 13:34:05 ||4d7fb4c9-3efe-4790-a21c-3f0897309ce1|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/elements.js|unavailable|Request method: GET
+16/10/19 13:34:05 ||11d4081a-780e-44e7-9ae6-b813721f2e4e|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/http.js|unavailable|Request method: GET
+16/10/19 13:34:05 ||63b22a3e-3032-479b-87d3-c1c03e25a0be|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/config.js|unavailable|Request method: GET
+16/10/19 13:34:05 ||b53ec4e4-9e6c-401b-b99c-0e657d8005ca|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/admin-api.js|unavailable|Request method: GET
+16/10/19 13:34:05 ||63b22a3e-3032-479b-87d3-c1c03e25a0be|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/config.js|success|Response status: 200
+16/10/19 13:34:05 ||11d4081a-780e-44e7-9ae6-b813721f2e4e|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/http.js|success|Response status: 200
+16/10/19 13:34:05 ||b53ec4e4-9e6c-401b-b99c-0e657d8005ca|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/admin-api.js|success|Response status: 200
+16/10/19 13:34:05 ||9dde4941-b567-4e07-bcd4-53d33d3fe6cf|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/page-update.js|unavailable|Request method: GET
+16/10/19 13:34:05 ||b53ec4e4-9e6c-401b-b99c-0e657d8005ca|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/elements.js|success|Response status: 200
+16/10/19 13:34:05 ||9dde4941-b567-4e07-bcd4-53d33d3fe6cf|audit|admin-ui||||access|uri|/gateway/sandbox/admin-ui/js/page-update.js|success|Response status: 200
+16/10/19 13:34:05 ||1ac51a68-c7f5-4404-8ad3-7afd7b9ce7f2|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|unavailable|Request method: GET
+16/10/19 13:34:05 ||cd79fec1-8b04-40ca-8eb4-4d2bb89763aa|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|unavailable|Request method: GET
+16/10/19 13:34:05 ||cd79fec1-8b04-40ca-8eb4-4d2bb89763aa|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/version|success|
+16/10/19 13:34:05 ||1ac51a68-c7f5-4404-8ad3-7afd7b9ce7f2|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies|success|
+16/10/19 13:34:05 ||1ac51a68-c7f5-4404-8ad3-7afd7b9ce7f2|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|failure|
+16/10/19 13:34:06 ||cd79fec1-8b04-40ca-8eb4-4d2bb89763aa|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|success|Response status: 200
+16/10/19 13:34:17 ||b88ff8e5-52fe-4294-b5dd-3e82814b8038|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/index.html|unavailable|Request method: GET
+16/10/19 13:34:17 ||b88ff8e5-52fe-4294-b5dd-3e82814b8038|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/index.html|success|
+16/10/19 13:34:17 ||b88ff8e5-52fe-4294-b5dd-3e82814b8038|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/index.html|success|Response status: 200
+16/10/19 13:34:17 ||86b96524-3e27-4f19-bfcc-f15346f72b0a|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/config.js|unavailable|Request method: GET
+16/10/19 13:34:17 ||86b96524-3e27-4f19-bfcc-f15346f72b0a|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/css/main.css|unavailable|Request method: GET
+16/10/19 13:34:17 ||86b96524-3e27-4f19-bfcc-f15346f72b0a|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/css/main.css|success|
+16/10/19 13:34:17 ||86b96524-3e27-4f19-bfcc-f15346f72b0a|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/js/config.js|success|
+16/10/19 13:34:17 ||86b96524-3e27-4f19-bfcc-f15346f72b0a|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/config.js|success|Response status: 200
+16/10/19 13:34:17 ||86b96524-3e27-4f19-bfcc-f15346f72b0a|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/css/main.css|success|Response status: 200
+16/10/19 13:34:17 ||e148cba1-242f-43be-afee-bba14455b485|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/admin-api.js|unavailable|Request method: GET
+16/10/19 13:34:17 ||799f317e-0ab2-4d64-8cb0-f91637c55415|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/http.js|unavailable|Request method: GET
+16/10/19 13:34:17 ||799f317e-0ab2-4d64-8cb0-f91637c55415|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/js/http.js|success|
+16/10/19 13:34:17 ||117fc307-0070-4410-81b3-8250bed956e7|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/http.js|success|Response status: 200
+16/10/19 13:34:17 ||8e2a0f23-666f-4dde-a68e-ee691dd0cb72|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/elements.js|unavailable|Request method: GET
+16/10/19 13:34:17 ||8e2a0f23-666f-4dde-a68e-ee691dd0cb72|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/js/admin-api.js|success|
+16/10/19 13:34:17 ||8e2a0f23-666f-4dde-a68e-ee691dd0cb72|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/css/normalize.css|unavailable|Request method: GET
+16/10/19 13:34:17 ||8e2a0f23-666f-4dde-a68e-ee691dd0cb72|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/admin-api.js|success|Response status: 200
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/page-update.js|unavailable|Request method: GET
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/css/normalize.css|success|
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/js/page-update.js|success|
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/css/normalize.css|success|Response status: 200
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/page-update.js|success|Response status: 200
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||authorization|uri|/gateway/admin/admin-ui/js/elements.js|success|
+16/10/19 13:34:17 ||a2c1a960-287e-476f-88cc-f05db2d004db|audit|admin-ui||||access|uri|/gateway/admin/admin-ui/js/elements.js|success|Response status: 200
+16/10/19 13:34:17 ||dcd1a0e4-b6ff-49f2-b161-6b2282413d0f|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|unavailable|Request method: GET
+16/10/19 13:34:17 ||3eed05ca-ef4d-44d7-8153-519a8945f6a0|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|unavailable|Request method: GET
+16/10/19 13:34:17 ||3eed05ca-ef4d-44d7-8153-519a8945f6a0|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies|success|
+16/10/19 13:34:17 ||dcd1a0e4-b6ff-49f2-b161-6b2282413d0f|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/version|success|
+16/10/19 13:34:17 ||dcd1a0e4-b6ff-49f2-b161-6b2282413d0f|audit|KNOX||||access|uri|/gateway/admin/api/v1/version|success|Response status: 200
+16/10/19 13:34:17 ||3eed05ca-ef4d-44d7-8153-519a8945f6a0|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies|success|Response status: 200
+16/10/19 13:34:21 ||b66caaa4-b7e7-4b30-9b99-a157d6f0cade|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 13:34:21 ||b66caaa4-b7e7-4b30-9b99-a157d6f0cade|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 13:34:21 ||b66caaa4-b7e7-4b30-9b99-a157d6f0cade|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 13:34:21 ||a438e19e-b6d4-4bf5-86a8-9f6953d38ae9|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 13:34:21 ||a438e19e-b6d4-4bf5-86a8-9f6953d38ae9|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 13:34:21 ||a438e19e-b6d4-4bf5-86a8-9f6953d38ae9|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 13:34:25 ||988555bc-eea2-41ec-9e40-330d58d501bc|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|unavailable|Request method: GET
+16/10/19 13:34:25 ||988555bc-eea2-41ec-9e40-330d58d501bc|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/sandbox|success|
+16/10/19 13:34:25 ||988555bc-eea2-41ec-9e40-330d58d501bc|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|success|Response status: 200
+16/10/19 13:34:25 ||00551271-ab26-4f04-ae96-b53c81086352|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|unavailable|Request method: GET
+16/10/19 13:34:25 ||00551271-ab26-4f04-ae96-b53c81086352|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/sandbox|success|
+16/10/19 13:34:25 ||00551271-ab26-4f04-ae96-b53c81086352|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|success|Response status: 200
+16/10/19 13:34:33 ||cd873121-0ddd-4694-91a4-132b3cd8e0bc|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|unavailable|Request method: GET
+16/10/19 13:34:33 ||cd873121-0ddd-4694-91a4-132b3cd8e0bc|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/admin|success|
+16/10/19 13:34:33 ||cd873121-0ddd-4694-91a4-132b3cd8e0bc|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|success|Response status: 200
+16/10/19 13:34:33 ||5105bcac-3d2d-435f-bf64-8e801a035eaf|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|unavailable|Request method: GET
+16/10/19 13:34:33 ||5105bcac-3d2d-435f-bf64-8e801a035eaf|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/admin|success|
+16/10/19 13:34:33 ||5105bcac-3d2d-435f-bf64-8e801a035eaf|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|success|Response status: 200
+16/10/19 14:14:37 |||audit|||||deploy|topology|sandbox|unavailable|
+16/10/19 14:52:43 ||1b97421c-f91e-4e32-94ec-8a3a9d416cd0|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 14:52:43 ||1b97421c-f91e-4e32-94ec-8a3a9d416cd0|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 14:52:43 ||1b97421c-f91e-4e32-94ec-8a3a9d416cd0|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 14:52:43 ||b6db3f15-c085-458d-b06e-446ee0c6c0b9|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 14:52:43 ||b6db3f15-c085-458d-b06e-446ee0c6c0b9|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 14:52:43 ||b6db3f15-c085-458d-b06e-446ee0c6c0b9|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 14:52:47 ||8a827939-adfa-45c1-8693-eb143114406c|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|unavailable|Request method: GET
+16/10/19 14:52:47 ||8a827939-adfa-45c1-8693-eb143114406c|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/sandbox|success|
+16/10/19 14:52:47 ||8a827939-adfa-45c1-8693-eb143114406c|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|success|Response status: 200
+16/10/19 14:52:47 ||95bab9cc-4184-42e4-983a-ef27f25ca3c1|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|unavailable|Request method: GET
+16/10/19 14:52:47 ||95bab9cc-4184-42e4-983a-ef27f25ca3c1|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/sandbox|success|
+16/10/19 14:52:47 ||95bab9cc-4184-42e4-983a-ef27f25ca3c1|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|success|Response status: 200
+16/10/19 14:52:50 ||ee3be2bb-8711-49d5-becb-0d578ac105c8|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|unavailable|Request method: GET
+16/10/19 14:52:50 ||ee3be2bb-8711-49d5-becb-0d578ac105c8|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/admin|success|
+16/10/19 14:52:50 ||ee3be2bb-8711-49d5-becb-0d578ac105c8|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|success|Response status: 200
+16/10/19 14:52:50 ||413f1f8c-53c6-4eb7-8492-55605d32839f|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|unavailable|Request method: GET
+16/10/19 14:52:50 ||413f1f8c-53c6-4eb7-8492-55605d32839f|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/admin|success|
+16/10/19 14:52:50 ||413f1f8c-53c6-4eb7-8492-55605d32839f|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|success|Response status: 200
+16/10/19 15:14:35 ||9356c908-d1a5-4836-bb90-eaae80196126|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 15:14:35 ||9356c908-d1a5-4836-bb90-eaae80196126|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 15:14:35 ||9356c908-d1a5-4836-bb90-eaae80196126|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 15:14:35 ||9ae460c6-4476-401b-9795-7264d7fa91cb|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 15:14:35 ||9ae460c6-4476-401b-9795-7264d7fa91cb|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 15:14:35 ||9ae460c6-4476-401b-9795-7264d7fa91cb|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 19:05:05 ||1db735a9-7f07-406f-b60a-b2f489b21684|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 19:05:05 ||1db735a9-7f07-406f-b60a-b2f489b21684|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 19:05:05 ||1db735a9-7f07-406f-b60a-b2f489b21684|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 19:05:05 ||d48df1b7-4326-408e-82f1-48d8f2a9e321|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|unavailable|Request method: GET
+16/10/19 19:05:05 ||d48df1b7-4326-408e-82f1-48d8f2a9e321|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/knoxsso|success|
+16/10/19 19:05:05 ||d48df1b7-4326-408e-82f1-48d8f2a9e321|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/knoxsso|success|Response status: 200
+16/10/19 19:05:21 ||319090a9-7aa7-4466-bf38-dd2398103052|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|unavailable|Request method: GET
+16/10/19 19:05:21 ||319090a9-7aa7-4466-bf38-dd2398103052|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/sandbox|success|
+16/10/19 19:05:21 ||319090a9-7aa7-4466-bf38-dd2398103052|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|success|Response status: 200
+16/10/19 19:05:21 ||f9a1f1cb-f32a-4a37-ad55-04f6e9bbe0da|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|unavailable|Request method: GET
+16/10/19 19:05:21 ||f9a1f1cb-f32a-4a37-ad55-04f6e9bbe0da|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/sandbox|success|
+16/10/19 19:05:21 ||f9a1f1cb-f32a-4a37-ad55-04f6e9bbe0da|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/sandbox|success|Response status: 200
+16/10/19 19:05:27 ||38f590e6-433e-4126-8b31-2227794f3f42|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|unavailable|Request method: GET
+16/10/19 19:05:27 ||38f590e6-433e-4126-8b31-2227794f3f42|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/admin|success|
+16/10/19 19:05:27 ||38f590e6-433e-4126-8b31-2227794f3f42|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|success|Response status: 200
+16/10/19 19:05:27 ||e7c84f7e-8930-4f05-a6ba-3e099a7397c6|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|unavailable|Request method: GET
+16/10/19 19:05:27 ||e7c84f7e-8930-4f05-a6ba-3e099a7397c6|audit|KNOX||||authorization|uri|/gateway/admin/api/v1/topologies/admin|success|
+16/10/19 19:05:27 ||e7c84f7e-8930-4f05-a6ba-3e099a7397c6|audit|KNOX||||access|uri|/gateway/admin/api/v1/topologies/admin|success|Response status: 200
