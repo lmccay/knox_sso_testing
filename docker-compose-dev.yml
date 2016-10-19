@@ -1,0 +1,10 @@
+version: '2'
+services:
+ ldap:
+    build: ./knox
+    image: lmccay/knox_knoxsso_testing:knox
+
+ knox:
+    build: ./knox
+    image: lmccay/knox_knoxsso_testing:knox
+
