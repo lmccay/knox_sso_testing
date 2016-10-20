@@ -14,5 +14,5 @@
 4. https://www.local.com:8443/gateway/knoxsso/api/v1/websso is the SSO provider URL to use in your application
 
 ## References
-
+[KnoxSSO for Apache Ambari with Form-based IdP](https://cwiki.apache.org/confluence/display/KNOX/Ambari+via+KnoxSSO+and+Default+IDP)
 
