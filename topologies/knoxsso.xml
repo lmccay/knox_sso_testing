@@ -110,7 +110,7 @@
         </param>
         <param>
            <name>knoxsso.redirect.whitelist.regex</name>
-           <value>^https?:\/\/(www\.cafebabe\.io|www\.local\.com|localhost|127\.0\.0\.1|0:0:0:0:0:0:0:1|::1):[0-9].*$</value>
+           <value>^https?:\/\/(www\.local\.com|localhost|127\.0\.0\.1|0:0:0:0:0:0:0:1|::1):[0-9].*$</value>
         </param>
     </service>
 
