@@ -13,5 +13,6 @@ services:
      - ./topologies:/knox/conf/topologies
      - ./logs:/knox/logs
      - ./applications:/knox/data/applications
+     - ./keystores:/knox/data/security/keystores
     depends_on:
     - ldap

@@ -80,13 +80,13 @@ function getTopology(name) {
     container.append('<label>Timestamp:</label>' + topology.timestamp);
     container.append('<h3>Providers</h3>');
     topology.providers.forEach(function (provider) {
-      container.append('<h4><label>Name:</label> ' + provider.name + '</h4>');
-      container.append('<label>Role:</label> ' + provider.role + '<br>');
+      container.append('<h4>Role:</label> ' + provider.role + '<br>');
+      container.append('<label>Name:</label> ' + provider.name + '</h4>' + '<br>');
       container.append('<label>enabled:</label> ' + provider.enabled + '<br>');
       if (provider.params) {
         container.append('<h5>Parameters</h5>');
         for (key in provider.params) {
-          container.append('<label>' + key + ': </label>' + provider.params[key] + '<br>')
+          container.append('<label>' + key + ': </label> ' + provider.params[key] + '<br>')
         }
       }
     });
