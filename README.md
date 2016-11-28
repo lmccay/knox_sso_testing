@@ -8,8 +8,7 @@
 
 ## Development
 1. Edit `topologies/knoxsso.xml` to use different IdPs
-2. Use keytool to export the public cert from 'keystores/gateway.jks' - just press enter when prompted for password
-     'keytool -exportcert -keystore keystores/gateway.jks -alias gateway-identity -rfc -file keystores/gateway.pem'
+2. Use the knoxcli.sh export-cert command to export the public cert of the gateway
 3. Copy the public cert without BEGIN and END headers from 'keystores/gateway.pem' for configuration in your application
 4. https://www.local.com:8443/gateway/knoxsso/api/v1/websso is the SSO provider URL to use in your application
 
