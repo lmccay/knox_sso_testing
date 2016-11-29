@@ -14,5 +14,6 @@
 
 ## References
 [KnoxSSO for Apache Ambari with Form-based IdP](https://cwiki.apache.org/confluence/display/KNOX/Ambari+via+KnoxSSO+and+Default+IDP)
+
 [KnoxSSO for Apache Ambari with SAML v2 (Okta)](https://cwiki.apache.org/confluence/display/KNOX/Ambari+via+KnoxSSO+and+Okta)
 
